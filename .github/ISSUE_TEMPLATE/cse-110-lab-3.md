@@ -10,4 +10,9 @@ assignees: Froggerson
 **What's the Issue?**
 A description of what the issue or task is.
 
-/ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ˗
+***Rewards***
++ ## EXP
++ ## Gold
++ ## Stat
+
+Go forth, traveler!
