@@ -1,0 +1,148 @@
+/* Here is the styling for the meeting notes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: greenyellow;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color:paleturquoise;
+}
+
+h1 {
+    font-size: 72px;
+    color: rgb(254,0,0);
+    position: static;
+}
+
+h2 {
+    color: #e3483d;
+}
+
+h3 {
+    color: hsl(353,55,60);
+}
+
+p{
+    color: (0,0,0);
+    font-size: 1em;
+}
+
+#initiation-title{
+    position: fixed;
+    top: 20px;
+    font-size: 40px;
+    border-color: aquamarine;
+    border-style: solid;
+    border-radius:10px;
+    border-width: 5px;
+    padding: 10px;
+    background-color:white;
+}
+.freedom:active{
+    background-color: #e3483d;
+}
+
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.list-container li{
+    display: inline-block;
+    margin: 5px 10px 3px 8px;
+    width:25%;
+    max-width: 800px;
+    max-height:200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: aqua;
+    height: 10%;
+}
+#corphish {
+    grid-area: corph;
+  }
+
+#vid {
+    grid-area: heretic;
+}
+
+#lorb {
+    grid-area: fish;
+}
+
+#lorb p{
+}
+
+#corphish p, #vid p{
+    border-bottom: 2px solid red;
+    padding:5px;
+    border-left: 2px dotted blue;
+}
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+      "corph heretic"
+      "fish fish";
+  }
+
+a[href~=".com"], #fail{
+    color: purple;
+    padding: 10px;
+    background-color: salmon;
+    font-style: italic;
+  }
+
+input[type="radio"]{
+    color:white;
+    font-size: 18px;
+}
+
+.grid-container > div {
+    background-color: springgreen;
+}
+
+#attendance ~ section {
+    border-right: 2px dotted goldenrod;
+}
+
+input + label {
+    color:indigo;
+    font-style: italic;
+}
+
+p.dis{
+    font-size:20px;
+}
+@media only screen and (max-width: 1000px) {
+    body{
+        background-color: hotpink;
+    }
+    p {
+        font-size: 12px;
+    }
+
+
+  }

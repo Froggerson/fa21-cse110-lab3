@@ -4,11 +4,15 @@
         <title>Leviathan Lobster Meeting Minutes</title>
         <meta charset="UTF-8">
         <link rel="favicon" type="image/png" href="rabbit.png"/>
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            * {visibility:visible;}
+          </style>
     </head>
     <body>
         <header>
-            <h1><em>Leviathan Lobster God </em><span>UCSD Branch</span></h1>
-            <h3>2021 Initiation Updates</h3>
+            <h1><em>Leviathan Lobster God </em><span id="ucsd-branch">UCSD Branch</span></h1>
+            <h3 id='initiation-title'>2021 Initiation Updates</h3>
         </header>
         <nav>
             <h3>Table of Contents</h3>
@@ -21,39 +25,47 @@
         </nav>
         <hr>
         <main>
-            <section id="attendance">
+            <section class="claw" id="attendance">
                 <h2>Attendance</h2>
                 <div>
-                    <ul>
-                        <li>Joe Jobster</li>
+                    <ul class="list-container">
+                        <li>Joe Joestar</li>
                         <li>Larry the Lobster</li>
                         <li>H.P Lovecraft</li>
                         <li>Pradeep K. Khosla</li>
                     </ul>
                 </div>
             </section>
-            <section id="updates">
-                <h2>Updates</h2>
-                <p>Retrieved lobster sounds for diss track:</p>
-                <audio controls>
-                    <source src="lobsterNoise.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio> 
-                <p>Recreated initiation video</p>
-                <video width="320" height="240" controls>
-                    <source src="lobster.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video> 
-                <p>Updated profile picture on social media <br><i>(it's a good boi)</i></p>
-                <img src="lobster.jpg" alt="Lobster" width="500">
+            <section class="claw" id="updates">
+                <h2 >Updates</h2>
+                <div class="grid-container">
+                <div id="corphish">
+                    <p>Retrieved lobster sounds for diss track:</p>
+                    <audio controls>
+                        <source src="lobsterNoise.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio> 
+                </div>
+                <div id="vid">
+                    <p>Recreated initiation video</p>
+                    <video width="320" height="240" controls>
+                        <source src="lobster.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video> 
+                </div>
+                <div id="lobster">
+                    <p>Updated profile picture on social media <br><i>(it's a good boi)</i></p>
+                    <img src="lobster.jpg" alt="Lobster" width="500">
+                </div>
+            </div>
             </section>
-            <section id="discussion">
+            <section class="claw" id="discussion">
                 <h2>Discussion</h2>
-                <p>Do we need to update the <a href="https://www.leviathanlobstergod.com/" target="_blank">website</a>?</p>
-                <p>We need to create a new member form.</p> 
+                <p class="dis">Do we need to update the <a id="fail" href="https://www.leviathanlobstergod.com/" target="_blank">website</a>?</p>
+                <p class="dis">We need to create a new member form.</p> 
             </section>
             <section id="member-form">
-                <h2>New Member Form</h2>
+                <h2 style="text-align:right;">New Member Form</h2>
                 <p>Here is a mock up of the new member form we created during the meeting:</p>
                 <form>
                     <label for="name">Name</label>
